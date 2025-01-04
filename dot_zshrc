@@ -40,7 +40,7 @@ eval "$(ujust --completions zsh)"
 alias -- 'clear'='clear -x'
 alias -- 'so'='source ~/.zshrc'
 alias -- 'archive'='tar -czvf archive.tar.gz '
-alias -- 'dotup'='export dir="$PWD" && cd ~/.dotfiles && git add -AN && git commit -a && git push && cd $dir'
+alias -- 'dotup'='chezmoi re-add'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
 chezmoi-cd() {
     cd $(chezmoi source-path)
