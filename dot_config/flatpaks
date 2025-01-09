@@ -73,6 +73,9 @@ io.github.qwersyk.Newelle
 # GDM Settings
 io.github.realmazharhussain.GdmSettings
 
+# WiVRN, SteamVR alternative
+io.github.wivrn.wivrn
+
 # Bootable media creator
 io.gitlab.adhami3310.Impression
 
