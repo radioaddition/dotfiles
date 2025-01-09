@@ -42,6 +42,7 @@ alias -- 'so'='source ~/.zshrc'
 alias -- 'archive'='tar -czvf archive.tar.gz '
 alias -- 'dotup'='chezmoi re-add && chezmoi apply'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
+alias -- 'vimsploit'='nvim /var/home/linuxbrew/.linuxbrew/Cellar/exploitdb/2024-11-26/share/exploitdb/exploits/$1'
 chezmoi-cd() {
     cd $(chezmoi source-path)
 }
