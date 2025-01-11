@@ -10,6 +10,9 @@ ca.desrt.dconf-editor
 # SimpleX Chat
 chat.simplex.simplex
 
+# ATLauncher, minecraft launcher
+com.atlauncher.ATLauncher
+
 # GPU Screen recorder
 com.dec05eba.gpu_screen_recorder
 
