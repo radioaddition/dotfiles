@@ -10,9 +10,6 @@ ca.desrt.dconf-editor
 # SimpleX Chat
 chat.simplex.simplex
 
-# PrismLauncher, minecraft launcher
-org.prismlauncher.PrismLauncher
-
 # GPU Screen recorder
 com.dec05eba.gpu_screen_recorder
 
@@ -82,6 +79,9 @@ io.github.wivrn.wivrn
 # Bootable media creator
 io.gitlab.adhami3310.Impression
 
+# Minecraft Bedrock Launcher
+io.mrarm.mcpelauncher
+
 # Fedora Media Writer
 org.fedoraproject.MediaWriter
 
@@ -144,6 +144,9 @@ org.nickvision.tubeconverter
 
 # Helvum
 org.pipewire.Helvum
+
+# PrismLauncher, minecraft launcher
+org.prismlauncher.PrismLauncher
 
 # Signal
 org.signal.Signal
