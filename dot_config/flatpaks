@@ -142,5 +142,8 @@ org.nickvision.tubeconverter
 # Helvum
 org.pipewire.Helvum
 
+# Signal
+org.signal.Signal
+
 # Menu item editor
 page.codeberg.libre_menu_editor.LibreMenuEditor
