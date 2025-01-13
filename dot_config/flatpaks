@@ -86,7 +86,10 @@ io.mrarm.mcpelauncher
 org.fedoraproject.MediaWriter
 
 # GNOME VM manager
-org.gnome.Boxes
+#org.gnome.Boxes
+
+# GNOME Boxes OS info extension
+#org.gnome.Boxes.Extension.OsinfoDb
 
 # GNOME Calculator
 org.gnome.Calculator
