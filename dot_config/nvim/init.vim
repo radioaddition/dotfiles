@@ -4,7 +4,6 @@ Plug 'Mofiqul/adwaita.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'NoahTheDuke/vim-just'
 Plug 'VonHeikemen/fine-cmdline.nvim'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'junegunn/fzf'
 Plug 'junegunn/vim-easy-align'
 Plug 'nvim-lualine/lualine.nvim'

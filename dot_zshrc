@@ -53,7 +53,7 @@ flatdec() {
 		if [ ! -f $HOME/.config/flatpaks ]; then
 			flatpak list --app --columns=application | tail -n +1 | sort | tee $HOME/.config/flatpaks
 		fi
-		flatpak install $(grep -v "^#" "./.config/flatpaks") --noninteractive --or-update
+		flatpak install $(grep -v "^#" "$HOME/.config/flatpaks") --noninteractive --or-update
 		flatpak uninstall $(flatpak list --app --columns=application | tail -n +1 | cat $HOME/.config/flatpaks - | grep -v "^#" | sort | uniq -u) --noninteractive --delete-data
 		flatpak uninstall --noninteractive --unused --delete-data'
 }
