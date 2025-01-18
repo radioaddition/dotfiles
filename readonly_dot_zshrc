@@ -1,0 +1,92 @@
+
+
+typeset -U path cdpath fpath manpath
+
+for profile in ${(z)NIX_PROFILES}; do
+  fpath+=($profile/share/zsh/site-functions $profile/share/zsh/$ZSH_VERSION/functions $profile/share/zsh/vendor-completions)
+done
+
+HELPDIR="/nix/store/dl29zdymb8pdsjk9m2dgy185zllaz6dl-zsh-5.9/share/zsh/$ZSH_VERSION/help"
+
+
+
+export ZPLUG_HOME=/var/home/radioaddition/.zplug
+
+source /nix/store/fgyqvvi39fw570x4kj091gsydw7is8yp-zplug-2.4.2/share/zplug/init.zsh
+
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "jeffreytse/zsh-vi-mode"
+
+
+
+if ! zplug check; then
+  zplug install
+fi
+
+zplug load
+
+
+# Oh-My-Zsh/Prezto calls compinit during initialization,
+# calling it twice causes slight start up slowdown
+# as all $fpath entries will be traversed again.
+autoload -U compinit && compinit
+
+
+
+
+
+
+
+# History options should be set in .zshrc and after oh-my-zsh sourcing.
+# See https://github.com/nix-community/home-manager/issues/177.
+HISTSIZE="10000"
+SAVEHIST="10000"
+
+HISTFILE="$HOME/.zsh_history"
+mkdir -p "$(dirname "$HISTFILE")"
+
+setopt HIST_FCNTL_LOCK
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_SPACE
+unsetopt HIST_EXPIRE_DUPS_FIRST
+setopt SHARE_HISTORY
+setopt EXTENDED_HISTORY
+
+
+. "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+
+      eval "$(atuin init zsh)"
+      eval "$(direnv hook zsh)"
+      eval "$(starship init zsh)"
+      eval "$(chezmoi completion zsh)"
+      eval "$(just --completions zsh)"
+
+eval "$(/nix/store/zp3xjvqjhv0csgr9qhb4v7y6vna16km2-zoxide-0.9.4/bin/zoxide init zsh )"
+
+if [[ $TERM != "dumb" ]]; then
+  eval "$(/var/home/radioaddition/.nix-profile/bin/starship init zsh)"
+fi
+
+eval "$(/nix/store/l97wg9p8zazih2r45g5fbz9b93rrj7p4-direnv-2.34.0/bin/direnv hook zsh)"
+
+if [[ $options[zle] = on ]]; then
+  eval "$(/nix/store/5hhlcgw43n9ac012hrwavv7vsihy2w7j-atuin-18.2.0/bin/atuin init zsh )"
+fi
+
+
+# Aliases
+alias -- 'archive'='tar -czvf archive.tar.gz '
+alias -- 'clean'='nix-env --delete-generations old && nix-collect-garbage -d && nix profile wipe-history'
+alias -- 'cleanr'='run0 sh -c '\''nix-env --delete-generations old && nix-collect-garbage -d && nix profile wipe-history'\'''
+alias -- 'clearls'='clear && ls -A'
+alias -- 'extract'='tar -xzvf '
+alias -- 'so'='exec zsh'
+alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
+
+# Named Directory Hashes
+
+
+
+
