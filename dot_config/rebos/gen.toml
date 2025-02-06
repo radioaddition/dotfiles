@@ -41,7 +41,6 @@ items = [
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
-    "org.pipewire.Helvum",
     "org.torproject.torbrowser-launcher",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
 ]
@@ -49,9 +48,9 @@ items = [
 # Unverified flathub apps
 [managers.flatpak-unverified]
 items = [
-    # "com.valvesoftware.Steam",
     "ch.protonmail.protonmail-bridge",
     "org.musicbrainz.Picard",
+    "org.pipewire.Helvum",
 ]
 
 # Flatpakrefs to install, aka flatpaks outside of flathub
