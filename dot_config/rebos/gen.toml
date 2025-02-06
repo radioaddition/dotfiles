@@ -54,7 +54,7 @@ items = [
 ]
 
 # Flatpakrefs to install, aka flatpaks outside of flathub
-[managers.flatapkrefs]
+[managers.flatpakrefs]
 items = [
     "https://sober.vinegarhq.org/sober.flatpakref",
 ]
