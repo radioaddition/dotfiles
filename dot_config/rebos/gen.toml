@@ -37,7 +37,6 @@ items = [
     "org.gnome.World.PikaBackup",
     "org.gnome.baobab",
     "org.gnome.gitlab.somas.Apostrophe",
-    "org.gnome.seahorse.Application",
     "org.keepassxc.KeePassXC",
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
