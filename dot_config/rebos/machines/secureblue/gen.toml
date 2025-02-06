@@ -4,23 +4,17 @@
 
 # Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
 imports = [
-    # "intensive_apps",
+    "gaming"
 ]
 
-# Packages to be installed via the native package manager.
-[managers.system]
+# Packages to be installed via Flatpak
+[managers.flatpak-verified]
 items = [
-    # "git",
+    "com.github.tchx84.Flatseal",
 ]
 
-# Packages to be installed via Flatpak.
-[managers.flatpak]
+# Unverified flathub apps
+[managers.flatpak-unverified]
 items = [
-    # "com.github.tchx84.Flatseal",
-]
-
-# Packages to be installed via Cargo.
-[managers.cargo]
-items = [
-    # "bacon",
+    # "com.valvesoftware.Steam"
 ]

@@ -2,25 +2,94 @@
 #    Generation File    #
 # --------------------- #
 
-# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
-imports = [
-    # "intensive_apps",
+# Packages to be installed via Flatpak
+[managers.flatpak-verified]
+items = [
+    "app.drey.Warp",
+    "app.fotema.Fotema",
+    "ca.desrt.dconf-editor",
+    "chat.simplex.simplex",
+    "com.github.marhkb.Pods",
+    "com.github.tchx84.Flatseal",
+    "com.github.wwmm.easyeffects",
+    "com.usebottles.bottles",
+    "de.haeckerfelix.Fragments",
+    "de.philippun1.Snoop",
+    "dev.geopjr.Collision",
+    "fr.romainvigier.MetadataCleaner",
+    "io.ente.auth",
+    "io.github.dvlv.boxbuddyrs",
+    "io.github.flattool.Ignition",
+    "io.github.flattool.Warehouse",
+    "io.github.giantpinkrobots.flatsweep",
+    "io.github.jeffshee.Hidamari",
+    "io.github.milkshiift.GoofCord",
+    "io.github.realmazharhussain.GdmSettings",
+    "io.gitlab.adhami3310.Impression",
+    "org.fedoraproject.MediaWriter",
+    "org.gnome.Calculator",
+    "org.gnome.Calendar",
+    "org.gnome.Connections",
+    "org.gnome.Evince",
+    "org.gnome.Fractal",
+    "org.gnome.Logs",
+    "org.gnome.Polari",
+    "org.gnome.World.PikaBackup",
+    "org.gnome.baobab",
+    "org.gnome.gitlab.somas.Apostrophe",
+    "org.gnome.seahorse.Application",
+    "org.keepassxc.KeePassXC",
+    "org.localsend.localsend_app",
+    "org.nickvision.tubeconverter",
+    "org.onionshare.OnionShare",
+    "org.pipewire.Helvum",
+    "org.torproject.torbrowser-launcher",
+    "page.codeberg.libre_menu_editor.LibreMenuEditor",
 ]
 
-# Packages to be installed via the native package manager.
-[managers.system]
+# Unverified flathub apps
+[managers.flatpak-unverified]
 items = [
-    # "git",
+    # "com.valvesoftware.Steam",
+    "ch.protonmail.protonmail-bridge",
+    "org.musicbrainz.Picard",
 ]
 
-# Packages to be installed via Flatpak.
-[managers.flatpak]
+# Flatpakrefs to install, aka flatpaks outside of flathub
+[managers.flatapkrefs]
 items = [
-    # "com.github.tchx84.Flatseal",
+    "https://sober.vinegarhq.org/sober.flatpakref",
 ]
 
-# Packages to be installed via Cargo.
-[managers.cargo]
+# Nix packages (usually cli utilities)
+[managers.nix]
 items = [
-    # "bacon",
+    # "neovim",
+    "age",
+    "atuin",
+    "bat",
+    "bat-extras.batman",
+    "btop",
+    "eza",
+    "fastfetch",
+    "fzf",
+    "glas",
+    "gleam",
+    "glow",
+    "gum",
+    "hyfetch",
+    "lazygit",
+    "magic-wormhole-rs",
+    "miracode",
+    "monocraft",
+    "mpv",
+    "nh",
+    "ripgrep",
+    "rsync",
+    "tealdeer",
+    "topgrade",
+    "up",
+    "usbtop",
+    "yazi",
+    "zoxide",
 ]
