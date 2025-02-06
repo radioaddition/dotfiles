@@ -23,11 +23,14 @@ silent! colorscheme adwaita
 set number
 set relativenumber
 set cursorline
+set cursorcolumn
 set lazyredraw
 set ignorecase smartcase
 set clipboard+=unnamedplus
 au InsertEnter * hi CursorLine gui=underline cterm=underline
 au InsertLeave * hi CursorLine gui=none cterm=none guibg=Grey20
+au InsertEnter * hi CursorColumn gui=none cterm=none guibg=transparent
+au InsertLeave * hi CursorColumn gui=none cterm=none guibg=Grey20
 set linebreak
 set scrolloff=5
 nnoremap <CR> <cmd>FineCmdline<CR>
@@ -36,7 +39,7 @@ vim.opt.showmode = false
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = 'adwaita',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
