@@ -3,6 +3,7 @@
 items = [
     "com.valvesoftware.Steam", # Steam
     "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
+    "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
 ]
 
 # Gaming utilities in flathub
@@ -14,6 +15,5 @@ items = [
     "com.dec05eba.gpu_screen_recorder", # Similar to shadowplay
     "com.github.Matoking.protontricks", # Protontricks
     "io.github.wivrn.wivrn", # WiVRn, SteamVR alternative
-    "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
     "org.prismlauncher.PrismLauncher", # Prism, a minecraft launcher
 ]
