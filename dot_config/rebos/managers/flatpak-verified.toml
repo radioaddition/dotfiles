@@ -1,7 +1,7 @@
 # Flatpak
 
-add = "flatpak install --user --noninteractive --or-update flathub-verified #:?"
-remove = "flatpak uninstall --user --noninteractive --or-update flathub-verified #:?"
+add = "flatpak install --user --noninteractive flathub-verified #:?"
+remove = "flatpak uninstall --user --noninteractive flathub-verified #:?"
 upgrade = "flatpak upgrade --noninteractive"
 
 plural_name = "verified-flatpaks"
