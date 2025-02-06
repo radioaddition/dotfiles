@@ -1,3 +1,5 @@
 [user]
 	email = radioaddition@pm.me
 	name = RadioAddition
+[core]
+	editor = nvim
