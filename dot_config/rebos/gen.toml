@@ -41,7 +41,6 @@ items = [
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
-    "org.torproject.torbrowser-launcher",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
 ]
 
@@ -83,6 +82,7 @@ items = [
     "tealdeer",
     "thefuck",
     "topgrade",
+    "tor-browser",
     "up",
     "usbtop",
     "yazi",

@@ -1,7 +1,7 @@
 # Nix using nix profile
 
-add = "nix profile install nixpkgs#{#:?}"
-remove = "nix profile remove {#:?}"
+add = "nix profile install nixpkgs##:?"
+remove = "nix profile remove #:?"
 upgrade = "nix profile upgrade"
 
 plural_name = "nixpkgs"
@@ -9,5 +9,4 @@ plural_name = "nixpkgs"
 hook_name = "nixpkgs"
 
 [config]
-many_args = true
-arg_sep = ","
+many_args = false
