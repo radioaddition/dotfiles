@@ -1,0 +1,19 @@
+# Unverified flatpaks, usually steam related
+[managers.flatpak-unverified]
+items = [
+    "com.valvesoftware.Steam", # Steam
+    "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
+]
+
+# Gaming utilities in flathub
+[managers.flatpak-verified]
+items = [
+    "com.vysp3r.ProtonPlus", # Proton version manager
+    "io.github.Foldex.AdwSteamGtk", # Gnome theme for steam
+    "page.kramo.Cartridges", # GTK version of lutris
+    "com.dec05eba.gpu_screen_recorder", # Similar to shadowplay
+    "com.github.Matoking.protontricks", # Protontricks
+    "io.github.wivrn.wivrn", # WiVRn, SteamVR alternative
+    "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
+    "org.prismlauncher.PrismLauncher", # Prism, a minecraft launcher
+]

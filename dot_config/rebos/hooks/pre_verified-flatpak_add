@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+flatpak remote-delete --system flathub
+flatpak remote-add --user --if-not-exists --subset=verified flathub-verified https://dl.flathub.org/repo/flathub.flatpakrepo

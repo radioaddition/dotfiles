@@ -1,0 +1,12 @@
+# Flatpak
+
+add = "flatpak install --user --noninteractive flathub-verified #:?"
+remove = "flatpak uninstall --user --noninteractive flathub-verified #:?"
+upgrade = "flatpak upgrade --noninteractive"
+
+plural_name = "verified-flatpaks"
+
+hook_name = "verified-flatpak"
+
+[config]
+many_args = true
