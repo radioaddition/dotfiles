@@ -58,6 +58,7 @@ items = [
 items = [
     "age",
     "atuin",
+    "babelfish",
     "bat",
     "bat-extras.batman",
     "btop",
