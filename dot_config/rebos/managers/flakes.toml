@@ -1,0 +1,12 @@
+# Nix using nix profile for packages outside of nixpkgs
+
+add = "nix profile install #:?"
+remove = "nix profile remove #:?"
+upgrade = "nix profile upgrade"
+
+plural_name = "flakes"
+
+hook_name = "flake"
+
+[config]
+many_args = true
