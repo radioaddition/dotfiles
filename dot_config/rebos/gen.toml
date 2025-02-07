@@ -57,6 +57,7 @@ items = [
 [managers.nix]
 items = [
     "age",
+    "asciinema",
     "atuin",
     "babelfish",
     "bat",
