@@ -3,3 +3,5 @@
 	name = RadioAddition
 [core]
 	editor = nvim
+[init]
+	defaultBranch = main
