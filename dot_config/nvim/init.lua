@@ -1,6 +1,5 @@
 -- PLUGINSSSSSS
-vim.cmd([[
-call plug#begin()
+vim.cmd([[call plug#begin()
 
 Plug 'Mofiqul/adwaita.nvim'
 Plug 'MunifTanjim/nui.nvim'
@@ -15,8 +14,7 @@ Plug 'sQVe/sort.nvim'
 Plug 'tpope/vim-fireplace'
 Plug 'tpope/vim-sensible'
 
-call plug#end()
-]])
+call plug#end()]])
 
 -- I don't remember what this does so I'm leaving it here until I miss its functionality
 --vim.cmd([[runtime! ftplugin/man.vim]])
