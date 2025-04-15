@@ -53,6 +53,12 @@ if status is-interactive
     function starship_transient_prompt_func
       starship module character
     end
+    # Nix stuff
+    if [ 'ls /home/nix' ]
+        . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
+        . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+    end
+
     starship init fish | source
     enable_transience
     atuin init fish | source
@@ -61,8 +67,11 @@ if status is-interactive
     just --completions fish | source
     nh completions --shell fish | source
     thefuck --alias | source
-    . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
-    . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+
+    # Functions, Aliases, and Abbreviations
+    function chezmoi-cd
+        cd $(chezmoi source-path)
+    end
 
     # Misc variables
     set -Ux HOSTNAME $(hostname)
