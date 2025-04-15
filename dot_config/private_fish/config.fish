@@ -61,6 +61,8 @@ if status is-interactive
     just --completions fish | source
     nh completions --shell fish | source
     thefuck --alias | source
+    . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
+    . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
 
     # Misc variables
     set -Ux HOSTNAME $(hostname)

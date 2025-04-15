@@ -16,7 +16,6 @@ items = [
     "de.haeckerfelix.Fragments",
     "de.philippun1.Snoop",
     "dev.geopjr.Collision",
-    "fr.romainvigier.MetadataCleaner",
     "io.ente.auth",
     "io.github.dvlv.boxbuddyrs",
     "io.github.flattool.Ignition",
