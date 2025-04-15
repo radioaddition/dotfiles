@@ -65,6 +65,7 @@ if status is-interactive
     direnv hook fish | source
     chezmoi completion fish | source
     just --completions fish | source
+    ujust --completions fish | source
     nh completions --shell fish | source
     thefuck --alias | source
 
