@@ -17,6 +17,7 @@ items = [
     "de.philippun1.Snoop",
     "dev.geopjr.Collision",
     "io.ente.auth",
+    "io.github.Foldex.AdwSteamGtk",
     "io.github.dvlv.boxbuddyrs",
     "io.github.flattool.Ignition",
     "io.github.flattool.Warehouse",
@@ -53,7 +54,12 @@ items = [
 ]
 
 # Nix packages (usually cli utilities)
-[managers.nix]
+[managers.flakes]
+items = [
+    "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
+]
+
+[managers.nixpkgs]
 items = [
     "age",
     "asciinema",
@@ -66,7 +72,6 @@ items = [
     "eza",
     "fastfetch",
     "fzf",
-    "glas",
     "gleam",
     "glow",
     "gum",
