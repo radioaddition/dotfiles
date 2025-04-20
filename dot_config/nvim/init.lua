@@ -56,7 +56,7 @@ vim.opt.clipboard:append { 'unnamed', 'unnamedplus' }
 
 -- "x" and change operations won't affect clipboard
 vim.keymap.set("", "x", "\"_x", { noremap = true})
-vim.keymap.set("", "c", "\"_s", { noremap = true})
+vim.keymap.set("", "c", "\"_c", { noremap = true})
 
 -- bind redo
 vim.keymap.set("", "U", "<C-r>", { noremap = true})
