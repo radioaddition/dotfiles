@@ -7,6 +7,7 @@
 items = [
     "app.drey.Warp",
     "app.fotema.Fotema",
+    "org.vinegarhq.Sober",
     "ca.desrt.dconf-editor",
     "chat.simplex.simplex",
     "com.github.tchx84.Flatseal",
