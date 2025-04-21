@@ -74,6 +74,7 @@ items = [
     "gleam",
     "glow",
     "gum",
+    "htop",
     "hyfetch",
     "lazygit",
     "magic-wormhole-rs",
