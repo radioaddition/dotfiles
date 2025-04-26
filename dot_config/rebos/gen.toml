@@ -61,6 +61,7 @@ items = [
 [managers.nixpkgs]
 items = [
     "age",
+    "age-plugin-yubikey",
     "asciinema",
     "atuin",
     "babelfish",
