@@ -7,7 +7,6 @@
 items = [
     "app.drey.Warp",
     "app.fotema.Fotema",
-    "org.vinegarhq.Sober",
     "ca.desrt.dconf-editor",
     "chat.simplex.simplex",
     "com.github.tchx84.Flatseal",
@@ -26,6 +25,7 @@ items = [
     "io.github.realmazharhussain.GdmSettings",
     "io.gitlab.adhami3310.Impression",
     "org.fedoraproject.MediaWriter",
+    "org.gnome.Boxes",
     "org.gnome.Calculator",
     "org.gnome.Calendar",
     "org.gnome.Connections",
@@ -41,6 +41,7 @@ items = [
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
+    "org.vinegarhq.Sober",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
 ]
 
