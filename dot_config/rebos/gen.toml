@@ -82,6 +82,7 @@ items = [
     "miracode",
     "monocraft",
     "mpv",
+    "ncurses",
     "nh",
     "ripgrep",
     "rsync",
