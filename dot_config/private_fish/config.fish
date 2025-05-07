@@ -66,7 +66,7 @@ if status is-interactive
     chezmoi completion fish | source
     just --completions fish | source
     ujust --completions fish | source
-    nh completions --shell fish | source
+    nh completions fish | source
     thefuck --alias | source
 
     # Functions, Aliases, and Abbreviations
