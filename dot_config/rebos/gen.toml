@@ -65,6 +65,7 @@ items = [
     "age-plugin-yubikey",
     "asciinema",
     "atuin",
+    "autotiling-rs",
     "babelfish",
     "bat",
     "bat-extras.batman",
