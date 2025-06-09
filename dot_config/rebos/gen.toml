@@ -51,6 +51,7 @@ items = [
     "ch.protonmail.protonmail-bridge",
     "org.musicbrainz.Picard",
     "org.pipewire.Helvum",
+    "org.signal.Signal",
 ]
 
 # Nix packages (usually cli utilities)
