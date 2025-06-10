@@ -87,7 +87,6 @@ items = [
     "mpv",
     "ncurses",
     "nh",
-    "pay-respects",
     "ripgrep",
     "rsync",
     "starship",

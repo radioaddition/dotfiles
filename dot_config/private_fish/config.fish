@@ -67,7 +67,6 @@ if status is-interactive
     just --completions fish | source
     ujust --completions fish | source
     nh completions fish | source
-    pay-respects fish --alias | source
 
     # Functions, Aliases, and Abbreviations
     function chezmoi-cd
