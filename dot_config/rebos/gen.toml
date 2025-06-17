@@ -92,6 +92,7 @@ items = [
     "rsync",
     "starship",
     "tealdeer",
+    "tmux",
     "topgrade",
     "tor-browser",
     "up",
