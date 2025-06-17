@@ -38,6 +38,7 @@ items = [
     "org.gnome.baobab",
     "org.gnome.gitlab.somas.Apostrophe",
     "org.keepassxc.KeePassXC",
+    "org.kiwix.desktop",
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
