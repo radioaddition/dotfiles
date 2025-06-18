@@ -9,6 +9,7 @@ items = [
     "app.fotema.Fotema",
     "ca.desrt.dconf-editor",
     "chat.simplex.simplex",
+    "com.bktus.gpgfrontend",
     "com.github.tchx84.Flatseal",
     "com.github.wwmm.easyeffects",
     "com.usebottles.bottles",
