@@ -5,6 +5,7 @@
 # Packages to be installed via Flatpak
 [managers.flatpak-verified]
 items = [
+    "app.bluebubbles.BlueBubbles",
     "app.drey.Warp",
     "app.fotema.Fotema",
     "ca.desrt.dconf-editor",
@@ -12,6 +13,7 @@ items = [
     "com.bktus.gpgfrontend",
     "com.github.tchx84.Flatseal",
     "com.github.wwmm.easyeffects",
+    "com.rustdesk.RustDesk",
     "com.usebottles.bottles",
     "de.haeckerfelix.Fragments",
     "de.philippun1.Snoop",
@@ -25,6 +27,7 @@ items = [
     "io.github.milkshiift.GoofCord",
     "io.github.realmazharhussain.GdmSettings",
     "io.gitlab.adhami3310.Impression",
+    "it.mijorus.gearlever",
     "org.fedoraproject.MediaWriter",
     "org.gnome.Boxes",
     "org.gnome.Calculator",
@@ -40,9 +43,11 @@ items = [
     "org.gnome.gitlab.somas.Apostrophe",
     "org.keepassxc.KeePassXC",
     "org.kiwix.desktop",
+    "org.libreoffice.LibreOffice",
     "org.localsend.localsend_app",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
+    "org.tenacityaudio.Tenacity",
     "org.vinegarhq.Sober",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
 ]
@@ -51,6 +56,7 @@ items = [
 [managers.flatpak-unverified]
 items = [
     "ch.protonmail.protonmail-bridge",
+    "io.github.prateekmedia.appimagepool",
     "org.musicbrainz.Picard",
     "org.pipewire.Helvum",
     "org.signal.Signal",

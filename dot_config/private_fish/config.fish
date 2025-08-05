@@ -54,7 +54,7 @@ if status is-interactive
       starship module character
     end
     # Nix stuff
-    if [ 'ls /home/nix' ]
+    if [ 'ls /home/nix' ] || [ 'ls /nix' ]
         . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
         . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
     end
