@@ -50,23 +50,23 @@ if status is-interactive
     set -Ux fish_cursor_replace_one underscore
 
     # shell inits
-    function starship_transient_prompt_func
-      starship module character
-    end
+     function starship_transient_prompt_func
+       starship module character
+     end
     # Nix stuff
-    if [ 'ls /home/nix' ] || [ 'ls /nix' ]
-        . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
-        . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
-    end
+     if [ 'ls /home/nix' ] || [ 'ls /nix' ]
+         . /home/nix/var/nix/profiles/default/etc/profile.d/nix.fish
+         . /home/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+     end
 
-    starship init fish | source
-    enable_transience
-    atuin init fish | source
-    direnv hook fish | source
-    chezmoi completion fish | source
-    just --completions fish | source
-    ujust --completions fish | source
-    nh completions fish | source
+     starship init fish | source
+     enable_transience
+     atuin init fish | source
+     direnv hook fish | source
+     chezmoi completion fish | source
+     just --completions fish | source
+     ujust --completions fish | source
+     nh completions fish | source
 
     # Functions, Aliases, and Abbreviations
     function chezmoi-cd
@@ -76,4 +76,5 @@ if status is-interactive
     # Misc variables
     set -Ux HOSTNAME $(hostname)
     set -Ux MANPAGER 'nvim +Man!'
+    set -Ux EDITOR 'nvim'
 end
