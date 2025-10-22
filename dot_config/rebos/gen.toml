@@ -2,22 +2,13 @@
 #    Generation File    #
 # --------------------- #
 
-# Nix packages (usually cli utilities)
-[managers.flakes]
-items = [
-    "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
-]
-
 [managers.soar]
 items = [
     "age",
-    "age-plugin-yubikey",
     "asciinema",
     "atuin",
-    "autotiling-rs",
     "babelfish",
     "bat",
-    "bat-extras.batman",
     "btop",
     "direnv",
     "eza",
@@ -29,21 +20,15 @@ items = [
     "htop",
     "hyfetch",
     "lazygit",
-    "magic-wormhole-rs",
-    "miracode",
-    "monocraft",
+    "wormhole-rs",
     "mpv",
-    "ncurses",
-    "nh",
     "ripgrep",
     "rsync",
     "starship",
-    "tealdeer",
+    "tldr",
     "tmux",
     "topgrade",
-    "tor-browser",
     "up",
-    "usbtop",
     "yazi",
     "zoxide",
 ]
