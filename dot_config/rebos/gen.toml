@@ -8,7 +8,7 @@ items = [
     "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
 ]
 
-[managers.nixpkgs]
+[managers.soar]
 items = [
     "age",
     "age-plugin-yubikey",
