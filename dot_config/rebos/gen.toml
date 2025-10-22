@@ -2,6 +2,51 @@
 #    Generation File    #
 # --------------------- #
 
+# Nix packages (usually cli utilities)
+[managers.flakes]
+items = [
+    "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
+]
+
+[managers.nixpkgs]
+items = [
+    "age",
+    "age-plugin-yubikey",
+    "asciinema",
+    "atuin",
+    "autotiling-rs",
+    "babelfish",
+    "bat",
+    "bat-extras.batman",
+    "btop",
+    "direnv",
+    "eza",
+    "fastfetch",
+    "fzf",
+    "gleam",
+    "glow",
+    "gum",
+    "htop",
+    "hyfetch",
+    "lazygit",
+    "magic-wormhole-rs",
+    "miracode",
+    "monocraft",
+    "mpv",
+    "ncurses",
+    "nh",
+    "ripgrep",
+    "rsync",
+    "starship",
+    "tealdeer",
+    "tmux",
+    "topgrade",
+    "tor-browser",
+    "up",
+    "usbtop",
+    "yazi",
+    "zoxide",
+]
 # Packages to be installed via Flatpak
 [managers.flatpak-verified]
 items = [
@@ -60,50 +105,4 @@ items = [
     "org.musicbrainz.Picard",
     "org.pipewire.Helvum",
     "org.signal.Signal",
-]
-
-# Nix packages (usually cli utilities)
-[managers.flakes]
-items = [
-    "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
-]
-
-[managers.nixpkgs]
-items = [
-    "age",
-    "age-plugin-yubikey",
-    "asciinema",
-    "atuin",
-    "autotiling-rs",
-    "babelfish",
-    "bat",
-    "bat-extras.batman",
-    "btop",
-    "direnv",
-    "eza",
-    "fastfetch",
-    "fzf",
-    "gleam",
-    "glow",
-    "gum",
-    "htop",
-    "hyfetch",
-    "lazygit",
-    "magic-wormhole-rs",
-    "miracode",
-    "monocraft",
-    "mpv",
-    "ncurses",
-    "nh",
-    "ripgrep",
-    "rsync",
-    "starship",
-    "tealdeer",
-    "tmux",
-    "topgrade",
-    "tor-browser",
-    "up",
-    "usbtop",
-    "yazi",
-    "zoxide",
 ]
