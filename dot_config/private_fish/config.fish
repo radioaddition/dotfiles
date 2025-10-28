@@ -53,8 +53,7 @@ if status is-interactive
      function starship_transient_prompt_func
        starship module character
      end
-    # soar stuff
-    export PATH="$PATH:/var/home/radioaddition/.local/bin:/var/home/radioaddition/.local/share/soar/bin"
+    export PATH="$HOME/.local/bin:$HOME/.local/share/soar/bin:$PATH"
 
     starship init fish | source
     enable_transience

@@ -1,9 +1,10 @@
 # Unverified flatpaks, usually steam related
 [managers.flatpak-unverified]
 items = [
+    "com.fightcade.Fightcade", # Fightcade (competitive retro fighting game emulator
     "com.valvesoftware.Steam", # Steam
-    "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
     "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
+    "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
 ]
 
 # Gaming utilities in flathub
