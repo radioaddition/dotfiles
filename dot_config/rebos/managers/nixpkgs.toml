@@ -1,8 +1,8 @@
-# Nix using nix profile
+# CLI utilities via nix
 
 add = "nix profile install nixpkgs##:?"
 remove = "nix profile remove #:?"
-upgrade = "nix profile upgrade"
+upgrade = "nix profile upgrade '.*'"
 
 plural_name = "nixpkgs"
 

@@ -33,6 +33,22 @@ items = [
     "zoxide",
 ]
 
+[managers.nixpkgs]
+items = [
+    "age-plugin-yubikey",
+    "autotiling-rs",
+    "bat-extras.batman",
+    "ncurses",
+    "nh",
+    "tor-browser",
+    "usbtop",
+]
+
+[managers.flakes]
+items = [
+    # "https://codeberg.org/RadioAddition/neovim/archive/main.tar.gz",
+]
+
 # Packages to be installed via Flatpak
 [managers.flatpak-verified]
 items = [
@@ -42,7 +58,6 @@ items = [
     "com.github.wwmm.easyeffects",
     "com.obsproject.Studio",
     "com.usebottles.bottles",
-    "dev.geopjr.Collision",
     "io.ente.photos",
     "io.github.dvlv.boxbuddyrs",
     "io.github.flattool.Warehouse",
@@ -51,11 +66,11 @@ items = [
     "org.gnome.Calculator",
     "org.gnome.Extensions",
     "org.gnome.Fractal",
+    "ca.edestcroix.Recordbox",
     "org.gnome.Polari",
     "org.gnome.Snapshot",
     "org.gnome.World.PikaBackup",
     "org.gnome.baobab",
-    "org.gnome.gitlab.somas.Apostrophe",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
@@ -69,6 +84,7 @@ items = [
 items = [
     "au.stevetech.yafi",
     "ch.protonmail.protonmail-bridge",
+    "org.bleachbit.BleachBit",
     "org.pipewire.Helvum",
     "org.signal.Signal",
 ]
