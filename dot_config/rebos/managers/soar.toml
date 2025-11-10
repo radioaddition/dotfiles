@@ -1,0 +1,12 @@
+# CLI utilities via nix
+
+add = "soar i #:?"
+remove = "soar r #:?"
+upgrade = "soar sync && soar u"
+
+plural_name = "soar"
+
+hook_name = "soar"
+
+[config]
+many_args = true
