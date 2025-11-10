@@ -2,7 +2,7 @@
 
 add = "soar i #:?"
 remove = "soar r #:?"
-upgrade = "soar sync && soar u"
+upgrade = "soar S && soar u"
 
 plural_name = "soar"
 
