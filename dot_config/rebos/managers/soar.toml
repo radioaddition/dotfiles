@@ -1,4 +1,4 @@
-# CLI utilities via nix
+# https://soar.qaidvoid.dev
 
 add = "soar i #:?"
 remove = "soar r #:?"

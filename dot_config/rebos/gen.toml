@@ -18,7 +18,6 @@ items = [
     "glow",
     "gum",
     "htop",
-    "hyfetch",
     "lazygit",
     "wormhole-rs",
     "mpv",
@@ -31,6 +30,11 @@ items = [
     "up",
     "yazi",
     "zoxide",
+]
+
+[managers.brew]
+items = [
+    "hyfetch",
 ]
 
 [managers.nixpkgs]
@@ -86,6 +90,7 @@ items = [
     "au.stevetech.yafi",
     "ch.protonmail.protonmail-bridge",
     "com.google.AndroidStudio",
+    "com.yubico.yubioath",
     "org.bleachbit.BleachBit",
     "org.musicbrainz.Picard",
     "org.pipewire.Helvum",
