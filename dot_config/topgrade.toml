@@ -290,3 +290,5 @@ upgrade = true
 # in the startup file, which might cause the update run to fail.
 # (default: true)
 # startup_file = true
+[rustup]
+channels = ["stable", "nightly"]
