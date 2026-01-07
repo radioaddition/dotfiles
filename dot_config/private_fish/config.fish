@@ -61,7 +61,7 @@ if status is-interactive
     direnv hook fish | source
     chezmoi completion fish | source
     just --completions fish | source
-    ujust --completions fish | source
+    ujust --completions fish | source || exit 0
 
     # Functions, Aliases, and Abbreviations
     function chezmoi-cd

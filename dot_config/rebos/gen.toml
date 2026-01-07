@@ -35,6 +35,8 @@ items = [
 [managers.brew]
 items = [
     "hyfetch",
+    "podman-compose",
+    "podman-tui",
 ]
 
 [managers.nixpkgs]
