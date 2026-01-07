@@ -45,7 +45,7 @@ assume_yes = true
 # no_retry = true
 
 # Run inside tmux (default: false)
-# run_in_tmux = true
+run_in_tmux = true
 
 # Changes the way topgrade interacts with
 # the tmux session, creating the session
@@ -60,7 +60,7 @@ cleanup = true
 # notify_each_step = false
 
 # Skip sending a notification at the end of a run (default: false)
-skip_notify = true
+# skip_notify = true
 
 # The Bash-it branch to update (default: "stable")
 # bashit_branch = "stable"
@@ -119,7 +119,7 @@ skip_notify = true
 # For the BrewCask step
 # If `Repo Cask Upgrade` exists, then use the `-a` option.
 # Otherwise, use the `--greedy` option.
-# greedy_cask = true
+greedy_cask = true
 
 # For the BrewCask step
 # If `Repo Cask Upgrade` does not exist, then use the `--greedy_latest` option.
@@ -135,11 +135,11 @@ skip_notify = true
 
 # For the BrewFormula step
 # Execute `brew autoremove` after the step.
-# autoremove = true
+autoremove = true
 
 # For the BrewFormula step
 # Upgrade formulae built from the HEAD branch; `brew upgrade --fetch-HEAD`
-# fetch_head = true
+fetch_head = true
 
 
 [linux]
@@ -152,7 +152,7 @@ arch_package_manager = "paru"
 # yay_arguments = "--nodevel"
 
 # Arguments to pass dnf when updating packages
-# dnf_arguments = "--refresh"
+dnf_arguments = "--refresh"
 
 # aura_aur_arguments = "-kx"
 
@@ -255,10 +255,10 @@ upgrade = true
 # directories = []
 
 # power on vagrant boxes if needed
-# power_on = true
+power_on = true
 
 # Always suspend vagrant boxes instead of powering off
-# always_suspend = true
+always_suspend = true
 
 
 [flatpak]
@@ -274,7 +274,7 @@ upgrade = true
 # Specify the containers to ignore while updating (Wildcard supported)
 # ignored_containers = ["ghcr.io/rancher-sandbox/rancher-desktop/rdx-proxy:latest", "docker.io*"]
 # Specify the runtime to use for containers (default: "docker", allowed values: "docker", "podman")
-# runtime = "podman"
+runtime = "podman"
 
 [lensfun]
 # If disabled, Topgrade invokes `lensfun‑update‑data` without root priviledge,
