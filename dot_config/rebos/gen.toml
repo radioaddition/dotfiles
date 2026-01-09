@@ -35,8 +35,6 @@ items = [
 [managers.brew]
 items = [
     "hyfetch",
-    "podman-compose",
-    "podman-tui",
 ]
 
 [managers.nixpkgs]
@@ -69,7 +67,6 @@ items = [
     "io.ente.photos",
     "io.github.dvlv.boxbuddyrs",
     "io.github.flattool.Warehouse",
-    "io.podman_desktop.PodmanDesktop",
     "net.lutris.Lutris",
     "org.gnome.Boxes",
     "org.gnome.Calculator",

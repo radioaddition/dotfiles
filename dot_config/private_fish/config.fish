@@ -67,9 +67,12 @@ if status is-interactive
     function chezmoi-cd
         cd $(chezmoi source-path)
     end
+    abbr --add so "exec fish"
+    abbr --add ls "eza -al"
+    abbr --add cp "z"
 
     # Misc variables
     set -Ux HOSTNAME $(hostname)
     set -Ux MANPAGER 'nvim +Man!'
-    set -Ux EDITOR 'nvim'
+    export EDITOR='nvim'
 end

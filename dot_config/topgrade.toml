@@ -291,4 +291,4 @@ runtime = "podman"
 # (default: true)
 # startup_file = true
 [rustup]
-channels = ["stable", "nightly"]
+channels = ["stable"]
