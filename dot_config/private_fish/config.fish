@@ -62,6 +62,7 @@ if status is-interactive
     chezmoi completion fish | source
     just --completions fish | source
     ujust --completions fish | source || exit 0
+    zoxide init fish | source
 
     # Functions, Aliases, and Abbreviations
     function chezmoi-cd
@@ -69,7 +70,7 @@ if status is-interactive
     end
     abbr --add so "exec fish"
     abbr --add ls "eza -al"
-    abbr --add cp "z"
+    abbr --add cd "z"
 
     # Misc variables
     set -Ux HOSTNAME $(hostname)
