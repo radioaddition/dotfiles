@@ -266,15 +266,15 @@ always_suspend = true
 # use_sudo = true
 
 
-[distrobox]
-# use_root = false
-
 # containers = ["archlinux-latest"]
 [containers]
 # Specify the containers to ignore while updating (Wildcard supported)
 # ignored_containers = ["ghcr.io/rancher-sandbox/rancher-desktop/rdx-proxy:latest", "docker.io*"]
 # Specify the runtime to use for containers (default: "docker", allowed values: "docker", "podman")
 runtime = "podman"
+
+[distrobox]
+# use_root = false
 
 [lensfun]
 # If disabled, Topgrade invokes `lensfun‑update‑data` without root priviledge,
