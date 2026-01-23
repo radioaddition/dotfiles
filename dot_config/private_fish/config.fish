@@ -50,18 +50,21 @@ if status is-interactive
     set -Ux fish_cursor_replace_one underscore
 
     # shell inits
-     function starship_transient_prompt_func
-       starship module character
-     end
     export PATH="$HOME/.local/bin:$HOME/.local/share/soar/bin:$PATH"
 
     starship init fish | source
+     function starship_transient_prompt_func
+       starship module character
+     end
     enable_transience
+
     atuin init fish | source
     direnv hook fish | source
     chezmoi completion fish | source
     just --completions fish | source
-    ujust --completions fish | source || exit 0
+    if type -q ujust
+      ujust --completions fish | source || exit 0
+    end
     zoxide init fish | source
 
     # Functions, Aliases, and Abbreviations

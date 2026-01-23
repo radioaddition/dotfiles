@@ -76,6 +76,7 @@ items = [
     "org.gnome.Snapshot",
     "org.gnome.World.PikaBackup",
     "org.gnome.baobab",
+    "org.keepassxc.KeePassXC",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "org.onionshare.OnionShare",
