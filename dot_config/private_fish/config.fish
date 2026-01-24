@@ -77,6 +77,7 @@ if status is-interactive
     abbr --add rustscan "podman run -it --rm --name rustscan rustscan/rustscan:2.1.1"
     abbr --add archive "tar -czvf archive.tar.gz "
     abbr --add extract "tar -xzvf "
+    abbr --add arch "distrobox enter arch-amdgpupro -- bash -c '"
 
 
     # Misc variables
