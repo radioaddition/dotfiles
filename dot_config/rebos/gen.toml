@@ -83,6 +83,7 @@ items = [
     "org.openandroidinstaller.OpenAndroidInstaller",
     "org.shotcut.Shotcut",
     "org.tenacityaudio.Tenacity",
+    "org.torproject.torbrowser-launcher",
     "org.vinegarhq.Sober",
 ]
 
@@ -94,6 +95,7 @@ items = [
     "com.google.AndroidStudio",
     "com.yubico.yubioath",
     "org.bleachbit.BleachBit",
+    "org.gnome.seahorse.Application",
     "org.musicbrainz.Picard",
     "org.pipewire.Helvum",
     "org.signal.Signal",
