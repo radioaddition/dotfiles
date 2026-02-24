@@ -34,7 +34,7 @@ SETUVAR --export fish_cursor_insert:line
 SETUVAR --export fish_cursor_replace:underscore
 SETUVAR --export fish_cursor_replace_one:underscore
 SETUVAR --export fish_initialized:3400
-SETUVAR --export fish_key_bindings:fish_default_key_bindings
+SETUVAR --export fish_key_bindings:fish_vi_key_bindings
 SETUVAR --export fish_pager_color_background:\x1d
 SETUVAR --export fish_pager_color_completion:BBB
 SETUVAR --export fish_pager_color_description:666

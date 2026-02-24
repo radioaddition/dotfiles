@@ -4,6 +4,7 @@ items = [
     "com.fightcade.Fightcade", # Fightcade (competitive retro fighting game emulator
     "com.valvesoftware.Steam", # Steam
     "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
+    "com.github.Anuken.Mindustry",
     "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
 ]
 
@@ -17,4 +18,5 @@ items = [
     "com.github.Matoking.protontricks", # Protontricks
     "io.github.wivrn.wivrn", # WiVRn, SteamVR alternative
     "org.prismlauncher.PrismLauncher", # Prism, a minecraft launcher
+    "org.vinegarhq.Sober", # Roblox launcher
 ]
