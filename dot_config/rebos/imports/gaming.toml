@@ -2,9 +2,14 @@
 [managers.flatpak-unverified]
 items = [
     "com.fightcade.Fightcade", # Fightcade (competitive retro fighting game emulator
-    "com.valvesoftware.Steam", # Steam
-    "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
     "com.github.Anuken.Mindustry",
+    "io.mrarm.mcpelauncher", # Minecraft bedrock launcher
+
+    # Steam Stuff
+    "com.valvesoftware.Steam", # Steam
+    "com.valvesoftware.Steam.Utility.steamtinkerlaunch", # SteamTinkerLaunch
+    "com.valvesoftware.Steam.CompatibilityTool.Proton-GE", # Proton-GE
+    "com.valvesoftware.Steam.Utility.InhibitScreensaver", # Inhibit Screensaver on wayland
     "org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/24.08", # Gamescope
 ]
 
