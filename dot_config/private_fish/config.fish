@@ -74,6 +74,7 @@ if status is-interactive
     abbr --add so "exec fish"
     abbr --add ls "eza -al"
     abbr --add cd "z"
+    abbr --add run0 "run0 -i"
     abbr --add rustscan "podman run -it --rm --name rustscan rustscan/rustscan:2.1.1"
     abbr --add archive "tar -czvf archive.tar.gz "
     abbr --add extract "tar -xzvf "
