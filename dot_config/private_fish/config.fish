@@ -50,7 +50,7 @@ if status is-interactive
     set -Ux fish_cursor_replace_one underscore
 
     # shell inits
-    export PATH="$HOME/.local/bin:$HOME/.rustup/toolchains:$PATH"
+    export PATH="$HOME/.local/bin:$HOME/.rustup/toolchains/*/bin:$PATH"
 
     starship init fish | source
      function starship_transient_prompt_func
