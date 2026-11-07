@@ -79,11 +79,16 @@ if status is-interactive
     abbr --add rustscan "podman run -it --rm --name rustscan rustscan/rustscan:2.1.1"
     abbr --add archive "tar -czvf archive.tar.gz "
     abbr --add extract "tar -xzvf "
-    abbr --add arch "distrobox enter arch-amdgpupro -- bash -c '"
 
 
     # Misc variables
     set -Ux HOSTNAME $(hostname)
     set -Ux MANPAGER 'nvim +Man!'
     export EDITOR='nvim'
+
+    # Launch tmux by default
+    if status is-interactive
+    and not set -q TMUX
+      exec tmux
+    end
 end
