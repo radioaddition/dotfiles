@@ -67,6 +67,7 @@ if status is-interactive
       ujust --completions fish | source || exit 0
     end
     zoxide init fish | source
+    thefuck --alias | source
 
     # Functions, Aliases, and Abbreviations
     function chezmoi-cd
